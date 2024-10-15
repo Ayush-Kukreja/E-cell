@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Entrepreneurship Cell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>E-Cell</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#submit">Submit Your Idea</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Join Our Entrepreneurial Revolution</h2>
+            <p>Submit your ideas, collaborate with mentors, and bring your startup to life.</p>
+            <a href="#submit" class="cta-btn">Submit Your Idea</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are committed to fostering innovation and entrepreneurship among aspiring founders. Our mission is to provide the right resources, mentorship, and funding to turn ideas into successful startups.</p>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program">
+            <h3>Startup Incubation</h3>
+            <p>Join our incubation program to access mentorship, resources, and networking opportunities.</p>
+        </div>
+        <div class="program">
+            <h3>Workshops & Bootcamps</h3>
+            <p>Participate in our hands-on workshops to develop your business and technical skills.</p>
+        </div>
+        <div class="program">
+            <h3>Mentorship Sessions</h3>
+            <p>Connect with experienced mentors who will guide you through your entrepreneurial journey.</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Join us for workshops, pitch contests, and networking events. Check out our event calendar for more details.</p>
+    </section>
+
+    <!-- Submit Idea Section -->
+    <section id="submit">
+        <h2>Submit Your Idea</h2>
+        <form id="idea-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="idea">Your Idea:</label>
+            <textarea id="idea" name="idea" rows="5" required></textarea>
+
+            <label for="stage">Stage of Development:</label>
+            <select id="stage" name="stage">
+                <option value="idea">Idea</option>
+                <option value="prototype">Prototype</option>
+                <option value="mvp">MVP</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Submit Idea</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Contact Us: info@ecell.com | Follow us on <a href="#">LinkedIn</a>, <a href="#">Twitter</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

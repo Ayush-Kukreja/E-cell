@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar */
+header {
+    background: #333;
+    padding: 10px 0;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content h2 {
+    font-size: 48px;
+}
+.hero-content p {
+    font-size: 20px;
+}
+.cta-btn {
+    background-color: #ff5733;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+}
+
+/* Submit Form */
+#submit form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+#submit label {
+    display: block;
+    margin-top: 10px;
+}
+#submit input, #submit textarea, #submit select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.submit-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: #ff5733;
+}
